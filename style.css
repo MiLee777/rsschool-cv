@@ -1,3 +1,42 @@
-# LIGAI MI DIA
--------------
-### Contact informafion
+body {
+    background-color: #E4D3CF;
+}
+
+.parent-one {
+    background-color: #9E9D89;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.iteam {
+    color: #E4D3CF;
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parent-two {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.parent-three {
+    display: flex;
+    flex-direction: column;
+} 
+
+.heading {
+    color: #B67162;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 50px;
+}
+img {
+    border-radius: 50%;
+}
+.line {
+    border: 5px solid #E2BCB7;
+}
