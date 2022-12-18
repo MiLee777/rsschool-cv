@@ -9,7 +9,7 @@ body {
     list-style: none;
     padding: 10px;
 }
- 
+
 .iteam {
     padding: 20px;
 }
@@ -19,6 +19,7 @@ body {
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
 }
+
 .iteam-menu:hover {
     color: #B67162;
 }
@@ -26,6 +27,7 @@ body {
 hr {
     border: 5px solid #9E9D89;
 }
+
 .parent-two {
     display: flex;
     justify-content: space-evenly;
@@ -57,6 +59,7 @@ h1 {
     padding: 10px;
     border: 3px solid #E2BCB7;
 }
+
 aside {
     float: right;
     width: 200;
@@ -64,46 +67,56 @@ aside {
     background-color:  #9E9D89;
     border: 3px solid #E2BCB7;
 }
+
 .aside {
     color: #E2BCB7;
     font-family: 'Roboto', sans-serif;
 }
+
 .aside-line {
     border: 1px solid #E4D3CF;
 }
+
 .link {
     color: #E4D3CF;
     text-decoration: none;
 } 
+
 .link:hover {
     color: #B67162;
 }
+
 .aside-heading {
     color: #E4D3CF;
     font-family: 'Roboto', sans-serif;
     padding-left: 10px;
     text-transform: uppercase;
 }
+
 .main-heading {
     color: #B67162;
     font-family: 'Roboto', sans-serif;
     padding-left: 10px;
     text-transform: uppercase;
 }
+
 .text {
     color: #B67162;
     font-family: 'Roboto', sans-serif;
     margin: 37px;
 }
+
 main {
     height: 250;
     border: 3px solid #E2BCB7;
     display: flex;
     flex-flow: row wrap;
 }
+
 .main-line {
     border: 1px solid #9E9D89;
 }
+
 .about-text {
     display: flex;
     flex-direction: column;
@@ -113,18 +126,19 @@ main {
 .about {
     align-self: center;
 }
+
 footer {
     background-color: #9E9D89;
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
-    border: 2px solid black;
 }
 
 .end {
     display: flex;
     flex-direction: column;
 }
+
 .footer-link {
     color: #E4D3CF;
     font-style: italic;
@@ -132,9 +146,11 @@ footer {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
 }
+
 .footer-link:hover {
     color: #B67162;
 }
+
 .footer-text {
     color: #E4D3CF;
     text-decoration: none;
