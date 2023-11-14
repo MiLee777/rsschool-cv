@@ -1,7 +1,7 @@
 # LIGAI MIDIA 
 ## Junior Frontend Developer
 ## Contact information:
-* Location: Antalya, Turkey
+* Location: Bangkok, Thailand
 * Phone: 8 (924) 199-09-88
 * Email: midyaleegay@gmail.com
 * GitHub: Milee777
