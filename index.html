@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>LIGAI MIDIA</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div class="container">
+         <div class="basic">
+            <div class="basic-main">
+               <img src="assets/photo.jpg" alt="photo">
+               <div class="about-me">
+                  <div>
+                     <h1>LIGAI MIDIA</h1>
+                     <hr>
+                     <h2 class="heading-prof">Junior Frontend Developer</h2>
+                  </div>
+               </div>
+               <div>
+                  <div>
+                     <section id="contact">
+                        <h2>Contact information</h2>
+                        <hr>
+                        <ul class="contact">
+                           <li>Location: Bangkok, Thailand</li>
+                           <li>Phone: 8 (924) 199-09-88</li>
+                           <li>Email: midyaleegay@gmail.com</li>
+                           <li>GitHub: Milee777</li>
+                        </ul>
+                     </section>
+                  </div>
+                  <div>
+                     <section id="skills">
+                        <h2>Skills and Proficiency</h2>
+                        <hr>
+                        <ul>
+                           <li>HTML5, CSS3</li>
+                           <li>JavaScript Basics</li>
+                           <li>Bootstrap</li>
+                           <li>Git, GitHub</li>
+                           <li>VS Code</li>
+                        </ul>
+                     </section>
+                  </div>
+               </div>
+               <div class="social-icons">
+                  <a href="https://twitter.com/?lang=ru" target="_blank"><img src="assets/twitter.svg" alt="twitter" class="social"></a>
+                  <a href="https://www.instagram.com/lmd0615/" target="_blank"><img src="assets/instagram.svg" alt="instagram" class="social"></a>
+                  <a href="https://wa.me/89241990888" target="_blank"><img src="assets/whatsapp.svg" alt="whatsapp" class="social"></a>
+                  <a href="https://t.me/milee777" target="_blank"><img src="assets/telegram.svg" alt="telegram" class="social"></a>
+               </div>
+            </div>
+         </div>
+         <div class="info">
+            <div class="info-main">
+               <header>
+                  <nav>
+                     <ul class="menu">
+                        <li><a href="#about" class="menu-item">About me</a></li>
+                        <li><a href="#skills" class="menu-item">Skills</a></li>
+                        <li><a href="#education" class="menu-item">Education</a></li>
+                        <li><a href="#languages" class="menu-item">Languages</a></li>
+                        <li><a href="#contact" class="menu-item">Contact</a></li>
+                     </ul>
+                  </nav>
+               </header>
+               <main>
+                  <section id="about">
+                     <h2>Briefly About Myself</h2>
+                     <hr>
+                     <p>I started my professional career as a banking specialist. During five years of work in the bank, I grew up to the chief client manager of the retail business.</p>
+                     <p>The bank gave me a lot of experience, but unfortunately our paths diverged, as I realized that I want to become a developer.</p>
+                     <p>I have now quit my job in order to fully immerse myself in my studies and quickly start my new life.</p>
+                  </section>
+               </main>
+               <div>
+                  <section id="education">
+                     <h2>Education</h2>
+                     <hr>
+                     <ul>
+                        <li>
+                           University:
+                           <ul>
+                              <li class="bullet">Yuzhno-Sakhalinsk Institute of Economics, Law and Informatics</li>
+                           </ul>
+                        </li>
+                        <li>
+                           Courses:
+                           <ul>
+                              <li class="bullet">
+                                 CanSheCode Inc.:
+                                 <ul>
+                                    <li>HTML5, CSS3</li>
+                                    <li>Bootstrap</li>
+                                 </ul>
+                              </li>
+                              <li class="bullet">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </section>
+               </div>
+               <div>
+                  <h2>Code example</h2>
+                  <hr>
+                  <pre>
+                     <code>
+function romanize(num) {
+   var lookup = {M:1000,CM:900,D:500,CD:400,C:100,
+   XC:90,L:50,XL:40,X:10,IX:9,V:5,IV:4,I:1},
+      roman = '',
+      i;
+   for ( i in lookup ) {
+      while ( num >= lookup[i] ) {
+         roman += i;
+         num -= lookup[i];
+      }
+   }
+   return roman;
+}
+                     </code>
+                  </pre>
+               </div>
+               <div>
+                  <section id="languages">
+                     <h2>Languages</h2>
+                     <hr>
+                     <ul>
+                        <li>English - Pre-Intermediate</li>
+                        <li>Russian - Native</li>
+                        <li>Korean - Basic</li>
+                        <li>Turkish - Basic</li>
+                     </ul>
+                  </section>
+               </div>
+               <footer>
+                  <div class="footer">
+                     <div class="github">
+                        <a href="https://github.com/MiLee777" target="_blank">
+                        <img src="assets/github-logo.png" alt="GitHub Logo" class="social github-item">
+                        </a>
+                     </div>
+                     <p>© 2023</p>
+                     <div>
+                        <a href="https://rs.school/js/" target="_blank">
+                        <img src="assets/rs_school_js.svg" alt="RSSchool Logo" class="rss">
+                        </a>
+                     </div>
+                  </div>
+               </footer>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
