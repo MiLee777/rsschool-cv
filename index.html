@@ -20,11 +20,12 @@
       </div>
       <nav class="header__nav">
         <ul class="header__menu">
-          <li><a href="">About me</a></li>
-          <li><a href="">Skills</a></li>
-          <li><a href="">Education</a></li>
-          <li><a href="">Code Example</a></li>
-          <li><a href="">Contacts</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#code">Code Example</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contacts">Contacts</a></li>
         </ul>
       </nav>
     </header>
@@ -72,6 +73,26 @@
             <li>Responsibility</li>
             <li>Adaptability and Flexibility</li>
             <li>Communication Skills</li>
+          </ul>
+        </section>
+        <section>
+          <h2 class="title">Hobbies</h2>
+          <ul class="soft-skills__list">
+            <li>Running</li>
+            <li>Pilates</li>
+            <li>Yoga</li>
+            <li>Drawing</li>
+            <li>Reading</li>
+          </ul>
+        </section>
+        <section class="main__works" id="works">
+          <h2 class="title">Works</h2>
+          <ul class="soft-skills__list">
+            <li><a href="https://milee777.github.io/momentum-app/" target="_blank">Momentum App <i class="uil uil-arrow-left arrow"></i></a></li>
+            <li><a href="https://milee777.github.io/audio-player/audio-player/" target="_blank">Player (Studio Ghibli) <i class="uil uil-arrow-left arrow"></i></a></li>
+            <li><a href="https://milee777.github.io/image-galery/image-galery/" target="_blank">Unsplash API <i class="uil uil-arrow-left arrow"></i></a></li>
+            <li><a href="https://milee777-to-do-list.netlify.app/" target="_blank">To Do List App <i class="uil uil-arrow-left arrow"></i></a></li>
+            <li><a href="https://milee777-nutrition-analysis-app.netlify.app/" target="_blank">Nutrition Analysis App <i class="uil uil-arrow-left arrow"></i></a></li>
           </ul>
         </section>
       </div>
@@ -147,14 +168,87 @@
               <p>2024</p>
             </div>
           </div>
-
         </section>
 
+        <section class="main__skills" id="skills">
+          <h2 class="title">Skills</h2>
+          <ul class="skills__list">
+            <li>
+              <p>HTML5</p>
+              <div class="skills__bar-expert"></div>
+            </li>
+            <li>
+              <p>CSS3</p>
+              <div class="skills__bar-expert"></div>
+            </li>
+            <li>
+              <p>JavaScript</p>
+              <div class="skills__bar-basic"></div>
+            </li>
+            <li>
+              <p>React</p>
+              <div class="skills__bar-basic"></div>
+            </li>
+            <li>
+              <p>Bootstrap</p>
+              <div class="skills__bar-expert"></div>
+            </li>
+            <li>
+              <p>Responsive Design</p>
+              <div class="skills__bar-expert"></div>
+            </li>
+            <li>
+              <p>Cross-Browser Compatibility</p>
+              <div class="skills__bar-expert"></div>
+            </li>
+            <li>
+              <p>Figma</p>
+              <div class="skills__bar-basic"></div>
+            </li>
+            <li>
+              <p>GSAP</p>
+              <div class="skills__bar-basic"></div>
+            </li>
+            <li>
+              <p>VS Code</p>
+              <div class="skills__bar-expert"></div>
+            </li>
+          </ul>
+        </section>
+        <section class="main__code" id="code">
+          <h2 class="title">Code Example</h2>
+          <pre>
+            <code class="code__box">
+function romanize(num) {
+    var lookup = {M:1000,CM:900,D:500,CD:400,C:100,
+    XC:90,L:50,XL:40,X:10,IX:9,V:5,IV:4,I:1},
+        roman = '',
+        i;
+    for ( i in lookup ) {
+        while ( num &gt;= lookup[i] ) {
+            roman += i;
+            num -= lookup[i];
+        }
+    }
+    return roman;
+  }
+            </code>
+          </pre>
+        </section>
       </div>
-
-
     </main>
 
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__content">
+          <p>© 2024</p>
+          <a href="https://github.com/MiLee777" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+        <div class="footer__img">
+          <a href="https://rs.school/courses/javascript-ru" target="_blank"><img src="assets/rss.svg" alt="RSS" width="100px"></a>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
