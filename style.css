@@ -56,3 +56,139 @@ li {
 .header__menu > li:hover {
   scale: 1.1;
 }
+
+main {
+  display: flex;
+}
+
+.main__conteiner-left {
+  width: 30%;
+  background-color: #f0f0f0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 50px;
+}
+
+.main__img {
+  align-self: center;
+}
+
+.main__img img {
+  width: 200px;
+  border: 3px solid #dfdfdf;
+  border-radius: 20px;
+}
+
+.title {
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.contacts__info > li {
+  margin: 5px;
+}
+
+.contacts__info > li > a {
+  font-size: 18px;
+  color: #333333;
+}
+
+.contacts__info > li > a > i,
+.contacts__info > li > i {
+  padding-right: 15px;
+}
+
+.main__lang {
+  width: 100%;
+}
+
+.lang__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.lang__level {
+  padding: 10px;
+  margin-left: 15px;
+  font-size: 10px;
+  background-color: #222222;
+  color: #ffffff;
+  border-radius: 50%;
+}
+
+.lang__bar-ru,
+.lang__bar-en,
+.lang__bar-kr {
+  position: relative;
+  width: 100%;
+  height: 3px;
+  margin: 10px 0 20px 0;
+  background-color: #cecece;
+}
+
+.lang__bar-ru {
+  background-color: #646464;
+}
+
+.lang__bar-en::before,
+.lang__bar-kr::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  background-color: #646464;
+}
+
+.lang__bar-en::before {
+  width: 50%;
+}
+
+.lang__bar-kr::before {
+  width: 10%;
+}
+
+.soft-skills__list > li {
+  padding: 5px;
+  font-size: 18px;
+}
+
+.main__conteiner-right {
+  width: 70%;
+  padding: 30px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.about__text {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.main__education {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.education__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.education__box > p,
+.education__content > p {
+  font-size: 18px;
+}
+
+.education__courses {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
