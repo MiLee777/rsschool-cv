@@ -272,3 +272,7 @@ main {
   color: #ffffff;
 }
 
+.footer__img img {
+  width: 100px;
+}
+
